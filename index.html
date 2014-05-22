@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+				    <h1>Hackbase Brussels</h1>
+				    <h3>What's in a name</h3>
+				</section>
+
+				<section>
+					<h2>History</h2>
+					<ul>
+					  <li>OHM 2013 : lanzarote (Cyberhippietotalism)</li>
+					  <li>recurrent idea the last months (setup hackbase.be website to aggregate possible location info -- Oct 23 2013)</li>
+					  <li>Hackerspace Brussels (HSBXL): In search for a new space</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Structure</h2>
+					<ul>
+					  <li>VZW/ASBL HACKBASE brussels (TAZio?)</li>
+					  <li>Searching for founding members</li>
+					  <li>Membership fee wil need to cover the shared costs (rent, power bill,..)</li>
+					</ul>
+				</section>
+
+				<section data-background="http://hackbase.be/sites/default/files/styles/large/public/locations/hackbase_TAZio_0.png">
+					<h2>Space we're looking at ftm: TAZio</h2>
+					<ul>
+						<li>Molenbeek
+						<li>Close to etangs-noirs/zwarte vijvers metro
+						<li>700 m from canal (compte de flandre)
+					</ul>
+				</section>
+
+				<section>
+					<h2>who</h2>
+					<ul>
+						<li> we're 4 now  (hs would be fifth)
+						<li> searching for more ppl to join in (ateliers, work / live) 
+						<li> and organisations (open tech/art&soc)
+					</ul>
+				</section>
+
+				<section>
+					<h2>how</h2>
+					<ul>
+						<li>participants (private ppl & org) become member of the hackbase vzw, 
+						<li> board of the hackbase decides on membership fee (to cover basic recurring costs )
+						<li> ppl living in small personal units spread over the living & atelier floors / big shared spaces (library, kitchen, sanitary, wood, metal atelier)
+						<li> hackerspace sharing spaces wth other org ?
+					</ul>
+				</section>
+
+				<section  data-background="http://hackbase.be/sites/default/files/styles/large/public/locations/2014-05-20%2014.48.07.jpg?itok=KqQZbXj7">
+					<h2>overview sketch</h2>
+					<p><a href="http://hackbase.be/sites/default/files/styles/large/public/locations/2014-05-20%2014.48.07.jpg">See full sketch here</a>
+				</section>
+
+				<section  data-background="http://hackbase.be/sites/default/files/styles/large/public/locations/2014-05-20%2014.48.07.jpg?itok=KqQZbXj7">
+					<h2>spaces we see usable for hackerspace</h2>
+				</section>
+
+				<section  data-background="http://hackbase.be/sites/default/files/styles/large/public/locations/20140516_131403.jpg">
+					<h2>groundfloor, front</h2>
+					<ul>
+						<li>entrance (4.5m wide)
+						<li>income (double gate, 4.5m wide)
+						<li>ceiling is 2.5m high 
+						<li>we found gas heating / ventilation connected -- last use : 2 years ago)
+					</ul>
+				</section>
+
+				<section  data-background="http://hackbase.be/sites/default/files/styles/large/public/locations/20140516_130932.jpg">
+					<h2>groundfloor, back</h2>
+					<ul>
+						<li>big space (10x13m)</li>
+						<li>wide stairs to 1st floor</li>
+						<li>veranda in the back (not on pic, ftm closed) for extra light</li>
+					</ul>
+				</section>
+
+				<section  data-background="http://hackbase.be/sites/default/files/styles/large/public/locations/20140516_131747.jpg">
+					<h2>1st floor, front </h2>
+				</section>
+
+				<section  data-background="http://hackbase.be/sites/default/files/styles/large/public/locations/20140516_131207.jpg">
+					<h2>1st floor, back</h2>
+				</section>
+
+				<section  data-background="http://hackbase.be/sites/default/files/styles/large/public/locations/2014-05-16%2013.12.33.jpg">
+					<h2>1st floor, back</h2>
+					<p>the 2 floors above can/will be shared with other organisations or ppl living</p>
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
