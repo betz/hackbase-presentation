@@ -149,9 +149,10 @@ body {
 
 .underlay {
  background: url("hackbase_background_1x1.png");
- padding: 50px;
+ padding: 45px !important;
 }
 
-h2 {
-  
+.reveal ul {
+  padding-left: 45px;
+  margin: 0;
 }
